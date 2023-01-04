@@ -13,10 +13,10 @@ class ReqParamsGetter:
             return value
 
         # get json value from key
-        json = request.get_json()
-        if json is not None:
-            value = json.get(key)
-            if value is not None:
-                return value
+        # json = request.get_json()
+        # if json is not None:
+        #     value = json.get(key)
+        #     if value is not None:
+        #         return value
 
         return default

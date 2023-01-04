@@ -5,7 +5,7 @@ from block_runner.base import Base
 from task import Task
 
 # Set the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Use the GPT-3 model to generate some text
 model_engine = "text-davinci-003"
