@@ -40,7 +40,7 @@ from task import Task
 app = Flask(__name__)
 
 my_gpt3 = MyGPT3()
-# my_gpt3.chat(Task("0000", "中国首都在哪里"))
+my_gpt3.chat(Task("0000", "中国首都在哪里"))
 
 taskQuene = TaskQueue()
 runner = Runner([my_gpt3])
